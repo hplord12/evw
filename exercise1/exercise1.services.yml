@@ -1,0 +1,4 @@
+services:
+  exercise1.get_user_data:
+    class: Drupal\exercise1\GetUserData
+    arguments: ['@http_client', '@cache.data']
